@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="tac.css">
+</head>
+<body>
+        <div class="brown">
+            <div class="head_div">
+                <h1 id="head">TIC-TAC-TOE</h1>
+            </div>
+            <div class="bottom_div">
+                <div class="d1">
+                <!-- TIC-TAC-TOE game chart -->
+                <div class="tic_div">
+                    <button class="box bt bl"></button>
+                    <button class="box bt"></button>
+                    <button class="box bt br"></button>
+                    <button class="box bl"></button>
+                    <button class="box"></button>
+                    <button class="box br"></button>
+                    <button class="box bb bl"></button>
+                    <button class="box bb"></button>
+                    <button class="box bb br"></button>
+                </div>
+            </div>
+            <div class="d2">
+                <div class="result">
+                    <!-- display the current winner -->
+                    <div class="score_div1">
+                        <span id="res">Player X turn</span>
+                    </div>
+                    <!-- score bord -->
+                    <div class="score_div2">
+                        <span>Score Board:</span>
+                        <span id="playerX">Player X: 0</span>
+                        <span id="playerO">Player O: 0</span>
+                        <span id="draw">Draw: 0</span>
+                    </div>
+                </div>
+                <!-- buttons to rest and startover the game -->
+                <div id="btns">
+                    <button class="butn" id="reset">Reset</button>
+                    <button class="butn" id="newgame">New Game</button>
+                </div>
+            </div>
+            </div>
+        </div>
+</body>
+<script src="toe.js"></script>
+</html>
