@@ -18,3 +18,30 @@ This project allows two players to play Tic-Tac-Toe in the browser with a live s
 🆕 New Game button → resets the board and clears the scoreboard
 
 📱 Fully responsive for both desktop and mobile
+
+tic-tac-toe/
+│── index.html     # Game UI
+│── tac.css        # Styling for layout and responsiveness
+│── toe.js         # Game logic (winner check, turns, reset/new game)
+│── README.md      # Documentation
+
+# 🛠️ Technologies Used
+
+HTML5 – Structure of the game
+
+CSS3 – Styling and responsiveness
+
+JavaScript (ES6) – Game logic and interactions
+
+# 🔮 Future Improvements
+
+✅ Highlight winning combination on the board
+
+✅ Add sound effects for moves and wins
+
+✅ Add an option for single-player mode vs computer (AI)
+
+# 👨‍💻 Author
+
+Created by [Adrich Fernandes] ✨
+Feel free to fork, contribute, or suggest improvements!
