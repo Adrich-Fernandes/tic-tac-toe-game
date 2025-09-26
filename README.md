@@ -19,13 +19,14 @@ This project allows two players to play Tic-Tac-Toe in the browser with a live s
 
 📱 Fully responsive for both desktop and mobile
 
-```bash
+```
 tic-tac-toe/
 │── index.html     # Game UI
 │── tac.css        # Styling for layout and responsiveness
 │── toe.js         # Game logic (winner check, turns, reset/new game)
 │── README.md      # Documentation
-bash```
+
+```
 
 # 🛠️ Technologies Used
 
